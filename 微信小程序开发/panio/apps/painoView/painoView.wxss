@@ -1,0 +1,28 @@
+/* apps/painoView/painoView.wxss */
+view {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding-top: 30rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.audioView {
+  width: 250rpx;
+  height: 250rpx;
+  background: radial-gradient(circle at center, #FF9B2A,#FFE03D);
+  text-align: center;
+  line-height: 250rpx;
+  border: 10rpx solid white;
+  box-sizing: border-box;
+  border-radius: 125rpx;
+  color: #1389FF;
+  font-size: 5  0rpx;
+}
+
+.action {
+  background: radial-gradient(circle at center, #BF7521,#DABE36);
+}

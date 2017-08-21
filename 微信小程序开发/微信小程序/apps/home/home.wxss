@@ -1,0 +1,18 @@
+/* apps/home/home.wxss */
+
+.redColor {
+  color: red;
+}
+
+.orangeColor {
+  color: orange;
+}
+.backgroundColor {
+  background-color: skyblue;
+}
+.repeatView {
+  background: green;
+  padding: 1rem;
+  margin: 0.2rem 1rem;
+  border-radius:5% 5%;
+}

@@ -1,0 +1,13 @@
+<view class="videoItem">
+<view class="userInfo">
+<image src="{{item.profile_image}}" class="userHeaderImage"></image>
+<text class="username">{{item.name}}</text>
+ <text class="createTime">{{item.create_time}}</text>
+</view>
+  <view class="videoTilte">{{item.text}}</view>
+  <video src="{{item.video_uri}}"class="video"></video>
+  <view class="videoDes">
+   <image src="../res/good.png" style="width:50rpx; height:50rpx"></image>
+    <text class="loveNumView">{{item.love}}</text>
+  </view>
+</view>

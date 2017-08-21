@@ -1,0 +1,11 @@
+<!--apps/pianoView/painoView.wxml-->
+
+<view class="container">
+
+<view hover-class="action" class="audioView" wx:for="{{audios}}" wx:item="{{item}}"
+ data-title="{{item.title}}" bindtouchstart="play" 
+ data-src="{{item.audio}}" data-id="{{item.title}}" wx:key="{{index}}">
+<audio src="{{item.audio}}" id="{{item.title}}"></audio>
+{{item.title}}
+</view>
+</view>

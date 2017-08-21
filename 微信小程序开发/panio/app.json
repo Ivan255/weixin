@@ -1,0 +1,12 @@
+{
+  "window": {
+    "navigationBarBackgroundColor": "#FF9B2A",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "music",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "pages": [
+    "apps/painoView/painoView"
+  ]
+}

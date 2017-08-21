@@ -1,0 +1,29 @@
+/* apps/homeDetail/homeDetail.wxss */
+/*.container {
+  height: 30rem;
+}
+.action {
+  background: red;
+}*/
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.colorView{
+  width: 5rem;
+  height: 5rem;
+  border: 0.5rem solid cornflowerblue;
+  box-sizing: border-box;
+  background-color: gold;
+}
+.scrollView {
+  height: 20rem;
+}
+.item {
+  width: 750rpx;
+  height: 15rem;
+  background-color: gold;
+  border: 0.2rem solid cadetblue;
+  box-sizing: border-box;
+}

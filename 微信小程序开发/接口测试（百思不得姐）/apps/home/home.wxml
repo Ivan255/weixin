@@ -1,0 +1,9 @@
+<!--apps/home/home.wxml-->
+<!--bindscrolltolower="loadData"-->
+<scroll-view scroll-y   class="container" style="height:{{height}}px">
+
+  <view class="videoContent" wx:for="{{datas}}" wx:item="{{item}}">
+    <include src="../temlates/videoItem" data="{{item}}" />
+  </view>
+
+</scroll-view>

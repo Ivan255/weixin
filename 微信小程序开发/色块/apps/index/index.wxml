@@ -1,0 +1,17 @@
+<!--apps/index/index.wxml-->
+<view class="container">
+
+<audio src="{{audioURL}}" loop="true" id="backgroundAudio"></audio>
+<button class="gameControl" bindtap="play">{{playText}}</button>
+<text style="text-align:{{center}}">{{time}}</text>
+<view class="gameContainer" style="width:{{width}}px;height:{{width}}px;">
+
+<view bindtap="gussColor" class="colorView" wx:for="{{items}}" wx:item="{{item}}" data-opacity="{{item}}" style="opacity:{{item}};border:{{colorViewSpace}}px solid black;width:{{colorViewWidth}}px;height:{{colorViewWidth}}px;background:{{colors[0]}}">
+
+</view>
+
+
+
+</view>
+
+</view>

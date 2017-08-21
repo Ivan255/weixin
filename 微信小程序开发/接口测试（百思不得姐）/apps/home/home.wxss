@@ -1,0 +1,14 @@
+/* apps/home/home.wxss */
+@import "../temlates/videoItem.wxss";
+.container {
+  display: flex;
+  padding: 10rpx;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.videoContent {
+  padding: 20rpx 0;
+border-bottom:1rpx solid gray ;
+}

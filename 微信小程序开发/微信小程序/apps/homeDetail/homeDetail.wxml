@@ -1,0 +1,14 @@
+<!--<view class="container" hover-class="action" hover-start-time="1000" hover-stay-time="3000">
+<button bindtap="goBack">返回</button>
+</view>-->
+
+
+<view class="container">
+<view class="colorView"
+ wx:for="{{datas}}"></view>
+<scroll-view scroll-y class="scrollView">
+<view class="item" wx:for="{{datas}}"></view>
+</scroll-view>
+<icon type="success" size="30"/>
+
+</view>

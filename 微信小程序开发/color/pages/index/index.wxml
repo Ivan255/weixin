@@ -1,0 +1,12 @@
+﻿<!--index.wxml-->
+<view class="container layout text-center">
+  <view class="hd">
+    <text>找色块</text>
+  </view>
+  <view class="bd">
+    <text>一起来找茬，找出所有色块中唯一一个不同颜色的色块</text>
+  </view>
+  <view class="go-box">
+    <button class="g-btn" hover-class="g-btn-active" bindtap="toGo">开始游戏</button>
+  </view>
+</view>

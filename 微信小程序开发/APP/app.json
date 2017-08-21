@@ -1,0 +1,14 @@
+{
+  "window": {
+    "navigationBarBackgroundColor": "#ef541d",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "What?",
+    "backgroundColor": "#cf3b6d",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "pages": [
+    "app/suiBian/suiBian"
+  ]
+  
+}

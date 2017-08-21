@@ -1,0 +1,36 @@
+
+.videoDes {
+  display: flex;
+}
+.userInfo {
+  display: flex;
+  padding-bottom: 10rpx;
+}
+.username,.createTime {
+  height: 100rpx;
+  line-height: 100rpx;
+  display: block;
+  padding-left: 10rpx;
+  flex: 1;
+}
+.username {
+  font-size: 30rpx;
+}
+.createTime {
+  text-align: right;
+   font-size: 25rpx;
+}
+
+.userHeaderImage {
+  width: 100rpx;
+    height: 100rpx;
+    border-radius: 50rpx;
+}
+
+.video {
+  width: 670rpx;
+
+}
+.videoTitle,.video {
+  padding: 10rpx 30rpx 0;
+}

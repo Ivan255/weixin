@@ -1,0 +1,15 @@
+/* apps/index/index.wxss */
+.gameContainer {
+  /*width: 750rpx;
+  height: 750rpx;*/
+  margin: 200rpx auto;
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.colorView {
+  /*background: red;
+  width: 200rpx;
+  height: 200rpx;
+  border: 10rpx solid black;*/
+}

@@ -1,0 +1,28 @@
+
+<import src="../templates/importTemplate1.wxml"/>
+ 
+
+
+<view class="container">
+
+<button bindtap="nextPage">下一页</button>
+
+<template is="importType1"></template>
+<include  src="../templates/includeTemplate.wxml"/>
+
+<button bindtap="changeTitle" class="{{textColor}}">{{title}}</button>
+<p class="{{bgColor}}">{{background}}</p>
+
+<view class="repeatView" wx:for="{{list}}" wx:item="{{item}}" wx:index="{{index}}" wx:key="{{index}}">
+{{index}}:{{item}}
+</view>
+
+<view class="container">
+<view class="item" wx:for="{{list}}" wx:item="{{item}}" wx:key="{{index}}" wx:index="{{index}}" >
+
+<text wx:if="{{index==1}}" style="color:red">{{item}}</text>
+<text wx:elif="{{index==3}}" style="color:blue">{{item}}</text>
+<text wx:else>{{item}}</text>
+</view>
+</view>
+</view>

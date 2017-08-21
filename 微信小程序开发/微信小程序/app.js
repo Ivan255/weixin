@@ -1,0 +1,21 @@
+App({
+  onLaunch:function(){
+    console.log("init");
+  },
+  onShow:function(options){
+    console.log("show");
+  },
+  onHide:function(){
+    console.log("hide");
+  },
+  onError:function(msg){
+    console.log(msg);
+  },
+  data:{
+    username:"小明",
+    age:20
+  },
+  myFun:function(){
+    console.log("myFun");
+  }
+})

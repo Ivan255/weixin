@@ -1,0 +1,6 @@
+<template name="importType1">
+
+<image src="../../res/home.png"></image>
+<text>importType1</text>
+
+</template>

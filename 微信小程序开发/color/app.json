@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/game/game",
+    "pages/over/over"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#e591ff",
+    "navigationBarTitleText": "找色块",
+    "navigationBarTextStyle":"white"
+  }
+}

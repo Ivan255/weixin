@@ -1,0 +1,5 @@
+
+<view >
+<image src="../../res/setting.png"></image>
+<text>includeTemplate</text>
+</view>

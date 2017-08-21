@@ -1,0 +1,5 @@
+<view class="container logo-list">
+  <block wx:for="{{logo}}" wx:for-item="logo">
+    <text class="logo-item">{{index + 1}}. {{logo}}</text>
+  </block>
+</view>
